@@ -32,32 +32,42 @@ nav {
 }
 
 #first-impression {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   position:relative;
   width: 100%;
+
+  padding: 0 15px;
+   
   background-color: rgb(30, 30, 120);
 }
 
+.logo {
+  /* width: 100%; */
+  min-width: 400px;
+  width: 400px;
+  height: 150px;
+
+  position: relative;
+}
+
 .bg-circle {
-  width: 82%;
+  width: 85%;
   height: 100px;
   position: absolute;
-  top: 10%;
-  right: 25px;
+  top: 20%;
+  left: 40px;
   z-index: 1;
 
   box-shadow: 8px 15px rgb(30,120,120);
-
-  /* border: 10px double palevioletred;
-  border-radius: 34px; */
-
-  /* background-color: white; */
-
 }
 
-h1 {
+.dev-jaq {
   margin: 0;
-  padding-top: 30px;
-  padding-right: 70%;
+  /* padding-top: 30px; */
+  /* padding-right: 70%; */
   
   font-family: 'Atomic Age', 'Helvetica', sans-serif;
   color: rgb(250, 235, 240);
@@ -66,30 +76,36 @@ h1 {
   text-shadow: 2px 2px 5px #000000, 0px 0px 20px #000000;
   text-align: right;
   
-  position: relative;
+
+  position: absolute;
+  top: 40px;
+  left: 10px;
   z-index: 10;
 }
 
-h2 {
-  margin: 12px;
-  margin-right: 5px;
-  margin-top: 0;
+.myname {
+  /* margin: 12px; */
+  /* margin-right: 5px; */
+  /* margin-top: 0; */
   font-family: 'Atomic Age', 'Helvetica', sans-serif;
-  text-align: right;
+  /* text-align: right; */
   color: rgb(250, 235, 240);
   /* background-color: rgb(30, 30, 120); */
   
   text-shadow: 2px 2px 5px #000000, 0px 0px 20px #000000;
 
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  /* bottom: 15px; */
   z-index: 10;
 }
 
 #raison {
-
   width: 100%;
+  max-width: 600px;
   margin: 0 auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding : 15px;
   background-color: rgb(250, 235, 240);
 
@@ -97,6 +113,8 @@ h2 {
   color: rgb(30,120,120);
   font-size: 15px;
   text-align: center;
+
+  /* position:  */
 }
 
 main {
@@ -128,6 +146,9 @@ a {
 
 footer {
   width: 100%;
+
+  padding: 0 15px;
+
   background-color:rgb(250, 235, 240);
   font-family: 'Roboto Mono', monospace;
 
@@ -139,10 +160,14 @@ footer a {
 
 nav {
   box-sizing: border-box;
+  max-width: 600px;
+
+  
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
+
+  margin: 0 auto;
   padding: 0;
 
 }
@@ -172,8 +197,22 @@ main .fifties-border {
 
 @media only screen and (min-width: 768px) {
 
+  .logo {
+    box-sizing: border-box;
+    width: 55%;
+
+    margin: 0;
+  }
+
+  #raison {
+    box-sizing: border-box;
+    width: 40%;
+
+    display: inline-block;
+  }
+
   .raison-br {
-    display: none;
+    /* display: none; */
   }
 }
 
