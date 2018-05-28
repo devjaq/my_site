@@ -15,7 +15,8 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: powderblue;
+  /* background-color: powderblue; */
+  background-color: rgb(208, 233, 232);
 }
 
 header {
@@ -121,16 +122,13 @@ nav {
 }
 
 #raison {
-
-  /* display: none; */
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  /* margin-top: 50px; */
   padding : 15px;
 
   font-family: "Roboto Mono", sans-serif;
-  color: rgb(30,120,120);
+  color: black;
   font-size: 15px;
   text-align: center;
 
