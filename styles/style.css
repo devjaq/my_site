@@ -171,7 +171,12 @@ overflow-y: scroll;
 
 a {
   color: rgb(201, 95, 118);
-  text-shadow: 0 0 5px ,
+  /* text-shadow: 0 0 5px; */
+}
+
+a:hover{
+  color: rgb(70, 180, 185);
+  text-decoration: none;
 }
 
 footer {
@@ -227,8 +232,6 @@ footer a {
 footer a:hover {
   background-color: rgb(224, 183, 197);
 
-  color: rgb(70, 180, 185);
-  text-decoration: none;
 
 }
 
