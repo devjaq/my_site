@@ -3,20 +3,22 @@ html {
   width: 100%;
 
   position: fixed;
+
 }
 
 body {
   box-sizing: border-box;
-
+  
   height: 100%;
   width: 100%;
-
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   background-color: rgb(223, 229, 240);
   /* background-color: rgb(208, 233, 232); */
+  color: darkslategrey;
 
   padding: 18px 0 0 18px;
 }
@@ -165,13 +167,12 @@ main {
   max-width: 600px;
   padding: 15px;
 
-overflow-y: scroll;
+  overflow-y: scroll;
 
 }
 
 a {
-  color: rgb(201, 95, 118);
-  /* text-shadow: 0 0 5px; */
+  color: rgb(202, 59, 90);
 }
 
 a:hover{
@@ -252,12 +253,14 @@ footer a:active {
 .fifties-border {
   /* border: 4px solid rgb(201, 95, 118); */
 
+  padding: 30px;
+
   background-color:rgb(250, 235, 240);
 
   border: 12px double rgb(202, 59, 90);
   border-left: none;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 5000px;
+  border-bottom-right-radius: 5000px;
   
 
 }
@@ -301,6 +304,12 @@ footer a:active {
     border: none;
     box-shadow: none;
     background: none;
+  }
+
+  .fifties-border {
+    border-left: 12px double rgb(202, 59, 90);
+    border-radius: 5000px;
+    text-align: center;
   }
 
 
