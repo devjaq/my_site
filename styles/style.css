@@ -257,7 +257,8 @@ footer a:active {
 
   background-color:rgb(250, 235, 240);
 
-  border: 12px double rgb(202, 59, 90);
+  /* border: 12px double rgb(202, 59, 90); */
+  border: 6px solid rgb(202, 59, 90);
   border-left: none;
   border-top-right-radius: 5000px;
   border-bottom-right-radius: 5000px;
@@ -307,7 +308,8 @@ footer a:active {
   }
 
   .fifties-border {
-    border-left: 12px double rgb(202, 59, 90);
+    /* border: 12px double rgb(202, 59, 90); */
+    border: 6px solid rgb(202, 59, 90);
     border-radius: 5000px;
     text-align: center;
   }
