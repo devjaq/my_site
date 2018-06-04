@@ -18,8 +18,9 @@ body {
   align-items: flex-end;
 
   padding: 18px 0 0 18px;
-  background-color: rgb(222, 211, 222);
-  color: rgb(50,0,50);
+  /* background-color: rgb(222, 211, 222); */
+  background-color: rgb(214, 203, 214);
+  /* color: rgb(50,0,50); */
 }
 
 header {
@@ -42,6 +43,7 @@ header {
 .dev-jaq {
   margin: 0;
   font-family: 'Atomic Age', 'Helvetica', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: rgb(250, 235, 240);
   font-size: 55px;
   /* font-weight: bold; */
@@ -150,7 +152,7 @@ footer a {
   border-bottom: 6px solid rgb(165, 25, 130);
   padding: 3px 0px;
 
-  background-color:rgb(250, 235, 240);
+  background-color:rgb(247, 235, 250);
 
   color: rgb(30,20,46);
   font-size: .9rem;
@@ -159,7 +161,7 @@ footer a {
 }
 
 footer a:hover {
-  background-color: rgb(224, 183, 197);
+  /* background-color: rgb(224, 183, 197); */
   color: rgb(35, 200, 225);
 }
 
