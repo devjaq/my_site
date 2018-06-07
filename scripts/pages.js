@@ -27,8 +27,18 @@ const about = {
   `
 }
 
+const resume = {
+  template: `
+
+    <object
+    class="resume" data="Jacquelyn_Aimee_Olson_Resume.pdf"></object>
+
+  `
+}
+
 
 angular
   .module("Site")
   .component("home",home)
   .component("about", about)
+  .component("resume", resume)
