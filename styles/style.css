@@ -274,12 +274,12 @@ footer a:active {
   header {
     /* height: 120px; */
     /* width: 100%; */
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    background-color: rgb(50, 0, 50);
+    /* background-color: rgb(50, 0, 50); */
   }
 
   .logo {
@@ -313,13 +313,16 @@ footer a:active {
   }
 
   main {
+    margin: 0 auto;
+    /* margin-right: 20px; */
+    max-width: 600px; 
     border-radius: 50px;
     border-top-right-radius: 0;
   }
 
   .content {
     max-height: none;
-    max-width: 600px;
+    /* max-width: 600px; */
 
     margin: 0;
     /* margin-left:  */
