@@ -301,6 +301,7 @@ footer a:active {
     max-width: 600px; 
     border-radius: 50px;
     border-top-right-radius: 0;
+    clip-path: none;
   }
 
   .content {
