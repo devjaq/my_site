@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+body { 
+  height: 100vh;
+  padding: 18px 0 0 18px;
+}
+
+.bg-arc {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 2px solid rgb(50, 0, 50);
+  border-top-left-radius: 45px;
+  z-index: 20;
+  box-shadow: 
+  /* -1px -2px rgb(50, 0, 50),  */
+  -3px -3px   rgb(35, 200, 225),
+  -3px -0px   rgb(35, 200, 225),
+   0px -3px   rgb(35, 200, 225),
+  -6px -6px rgb(50, 0, 50), 
+  -6px -0px rgb(50, 0, 50), 
+  0px -6px rgb(50, 0, 50), 
+  
+  -9px -9px rgb(35, 200, 225),
+  0px -9px rgb(35, 200, 225),
+  -9px 0px rgb(35, 200, 225),
+
+  -12px -12px rgb(50, 0, 50), 
+  -12px -0px rgb(50, 0, 50), 
+  0px -12px rgb(50, 0, 50), 
+
+  -15px -15px rgb(35, 200, 225),
+  0px -15px rgb(35, 200, 225),
+  -15px 0px rgb(35, 200, 225),
+
+  
+  -50px -50px rgb(50, 0, 50),
+  -50px -0px rgb(50, 0, 50),
+  -0px -50px rgb(50, 0, 50);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(60, 0, 60);
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 40px;
+  box-shadow: 0 7px 20px rgb(20, 0, 20);
+}
+
+.logo {
+  margin: 20px 0;
+
+}
+
+h1 {
+  font-family: 'Atomic Age', monospace;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'Atomic Age', monospace;
+  font-size: 29px;
+
+}
+
+.tagline {
+  margin-top: 50px;
+}
+
+.social a {
+  /* background-color: black; */
+}
+
+main {
+  padding: 25px;
+}
+
+nav {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+}
