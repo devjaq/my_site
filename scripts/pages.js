@@ -36,7 +36,9 @@ const resume = {
   template: `
 
     <object
-    class="resume" data="Jacquelyn_Aimee_Olson_Resume.pdf"></object>
+    class="resume" 
+    data="Resume.pdf"
+    ></object>
 
   `
 }
@@ -45,5 +47,5 @@ const resume = {
 angular
   .module("Site")
   .component("home", home)
-  .component("about", about)
+  // .component("about", about)
   .component("resume", resume)
