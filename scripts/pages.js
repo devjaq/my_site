@@ -6,7 +6,7 @@ const home = {
     <section class="content flex-sm-column fifties-border">
       <h3>Hi, thanks for being here!</h3>
       <p>I am currently working hard in a Grand Circus coding bootcamp, but don't worry! I will be in the job market very soon.</p>
-      <p>If you are here to learn a few things <a href="#!/about">about me</a>, why don't you check out my <a href="Jacquelyn_Aimee_Olson_Resume.pdf">résumé</a> and <a href="https://github.com/devjaq">portfolio</a>?</p>
+      <p>If you are here to learn a few things <a href="#!/about">about me</a>, why don't you check out my <a href="Resume.pdf">résumé</a> and <a href="https://github.com/devjaq">portfolio</a>?</p>
     </section>
     <section class="content flex-sm-column fifties-border">
       <p>Currently I'm studying front-end development at Grand Circus Detroit.</p>
