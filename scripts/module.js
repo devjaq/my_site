@@ -14,6 +14,9 @@ angular
       .when("/resume", {
         template: `<resume></resume>`
       })
+      .when("/blog", {
+        template: `<blog></blog>`
+      })
       .otherwise({
         redirectTo: `/home`
       })
