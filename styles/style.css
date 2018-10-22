@@ -307,6 +307,7 @@ footer a:active {
   }
 
   .dev-jaq {
+    border: 9px solid hsl(195, 100%, 97%);
     padding: 20px 60px 35px 30px;
 
     font-size: 120px;
