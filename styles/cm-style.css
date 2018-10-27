@@ -24,8 +24,16 @@ header {
   flex-direction: column;
   align-items: center;
 
-  
+  position: sticky;
+  top: 0;
+}
 
+#tagline {
+  display: none;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 h1 {
@@ -68,6 +76,7 @@ p {
 }
 
 article {
+  width: 100%;
   background: hsl(278, 100%, 97%);
   background: hsl(195, 100%, 97%);
 
@@ -96,5 +105,34 @@ article {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+
+  header.sticky {
+    width: 100vw;
+    max-width: unset;
+    height: 15vh;
+    z-index: 10;
+    justify-content: flex-start;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: 0px 10px 20px grey;
+    /* transform: scale(1, .75); */
+  }
+
+  header.sticky h1, header.sticky h2 {
+    transform: scale(.75);
+    margin: 0;
+    position: initial;
+  }
+
+  header.sticky br {
+    display: none;
+  }
+
+  #tagline {
+    display: initial;
   }
 }
