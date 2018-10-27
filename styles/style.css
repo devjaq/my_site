@@ -324,6 +324,7 @@ footer a:active {
     display: inline-block;
     position: relative;
     /* bottom: 45px; */
+    right: 15px;
     margin: 0;
     border: none;
     border-radius: 0px;
