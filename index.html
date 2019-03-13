@@ -18,25 +18,9 @@
 
 <body>
   <div class="bg-arc">
-    <header>
-      <!-- <section id="first-impression"> -->
-      <logo></logo>
+    <my-header></my-header>
 
-      <div class="tagline" id="raison">
-        <p>Passionately creating</p>
-        <p>Always learning</p>
-        <p>Total nerd</p>
-      </div>
-      <div class="social">
-        <a href="https://twitter.com/devjaq" class="mdi mdi-48px mdi-twitter"></a>
-        <a href="https://github.com/devjaq" class="mdi mdi-48px mdi-github-circle"></a>
-        <a href="https://www.linkedin.com/in/devjaq/" class="mdi mdi-48px  mdi-linkedin"></a>
-        <a href="mailto:devjaq@gmail.com" class="mdi mdi-48px  mdi-gmail"></a>
-      </div>
-      <!-- </section> -->
-    </header>
-
-    <ng-view></ng-view>
+    <!-- <ng-view></ng-view> -->
 
     <footer>
       <nav>
@@ -49,12 +33,13 @@
       </nav>
     </footer>
   </div>
-
+  <!-- begin scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
   <script src="scripts/module.js"></script>
   <script src="scripts/pages.js"></script>
   <script src="scripts/components/logo.js"></script>
+  <script src="scripts/components/my-header.js"></script>
 
 </body>
 
