@@ -1,3 +1,6 @@
+$dark-purple: $dark-purple;
+
+
 * {
   box-sizing: border-box;
 }
@@ -8,7 +11,7 @@ body {
   margin: 0;
   /* padding: 18px 0 0 18px; */
   /* background-color: rgb(214, 203, 214); */
-  background-color: rgb(50, 0, 50);
+  background-color: $dark-purple;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -29,7 +32,7 @@ body {
 
   overflow-x: hidden;
 
-  border: 2px solid rgb(50, 0, 50);
+  border: 2px solid $dark-purple;
   border-top-left-radius: 45px;
   z-index: 20;
 
@@ -37,26 +40,26 @@ body {
   -3px -3px   rgb(35, 200, 225),
   -3px -0px   rgb(35, 200, 225),
    0px -3px   rgb(35, 200, 225),
-  -6px -6px rgb(50, 0, 50), 
-  -6px -0px rgb(50, 0, 50), 
-  0px -6px rgb(50, 0, 50), 
+  -6px -6px $dark-purple, 
+  -6px -0px $dark-purple, 
+  0px -6px $dark-purple, 
   
   -9px -9px rgb(35, 200, 225),
   0px -9px rgb(35, 200, 225),
   -9px 0px rgb(35, 200, 225),
 
-  -12px -12px rgb(50, 0, 50), 
-  -12px -0px rgb(50, 0, 50), 
-  0px -12px rgb(50, 0, 50), 
+  -12px -12px $dark-purple, 
+  -12px -0px $dark-purple, 
+  0px -12px $dark-purple, 
 
   -15px -15px rgb(35, 200, 225),
   0px -15px rgb(35, 200, 225),
   -15px 0px rgb(35, 200, 225),
 
   
-  -50px -50px rgb(50, 0, 50),
-  -50px -0px rgb(50, 0, 50),
-  -0px -50px rgb(50, 0, 50);
+  -50px -50px $dark-purple,
+  -50px -0px $dark-purple,
+  -0px -50px $dark-purple;
 } */
 
 header {
@@ -99,9 +102,9 @@ h2 {
   /* color: hsl(195, 40%, 75%); */
   font-size: 100px;
   letter-spacing: -8px;
-  text-shadow: -2px -2px 1px rgb(50, 0, 50), 2px 2px 1px rgb(50, 0, 50),
-    -2px 2px 1px rgb(50, 0, 50), 2px -2px 1px rgb(50, 0, 50),
-    -8px 8px 1px rgb(50, 0, 50);
+  text-shadow: -2px -2px 1px $dark-purple, 2px 2px 1px $dark-purple,
+    -2px 2px 1px $dark-purple, 2px -2px 1px $dark-purple,
+    -8px 8px 1px $dark-purple;
   text-align: center;
 }
 
@@ -109,7 +112,7 @@ h2 {
   font-family: "Satisfy", cursive;
   width: 100%;
   color: #e9afda;
-  /* color: rgb(50, 0, 50); */
+  /* color: $dark-purple; */
   font-size: 45px;
   text-align: center;
 }
@@ -294,7 +297,7 @@ footer a:active {
     background: hsl(195, 100%, 97%);
 
 
-    /* background-color: rgb(50, 0, 50); */
+    /* background-color: $dark-purple; */
   }
 
   .logo {
@@ -312,7 +315,7 @@ footer a:active {
   }
 
   .myname {
-    color: rgb(50, 0, 50);
+    color: $dark-purple;
 
   }
 
@@ -327,11 +330,11 @@ footer a:active {
     border: none;
     border-radius: 0px;
     box-shadow: none;
-    /* color: rgb(50, 0, 50); */
+    /* color: $dark-purple; */
   }
 
   #raison p { 
-    color: rgb(50, 0, 50);
+    color: $dark-purple;
 
   }
 
