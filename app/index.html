@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html ng-app="Site" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>devJaq: Development with passion</title>
+    <link
+      href="../node_modules/mdi/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Atomic+Age|Inconsolata|Satisfy|Open+Sans|Life+Savers:400,700|Poiret+One|Ubuntu:300,400"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>devJaq: Development with passion</title>
-  <link href="node_modules/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Inconsolata|Satisfy|Open+Sans|Life+Savers:400,700|Poiret+One|Ubuntu:300,400"
-    rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- <link rel="stylesheet" href="styles/alt-style.css"> -->
+  </head>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
-  <!-- <link rel="stylesheet" href="styles/alt-style.css"> -->
+  <body>
+    <div class="bg-arc">
+      <my-header></my-header>
 
-</head>
+      <ng-view></ng-view>
 
-<body>
-  <div class="bg-arc">
-    <my-header></my-header>
-
-    <!-- <ng-view></ng-view> -->
-
-    <footer>
-      <nav>
-        <a href="#!/home">Home</a>
-        <!-- <a href="#!/about">About Me</a> -->
-        <!-- <a href="Jacquelyn_Aimee_Olson_Resume.pdf">Résumé</a> -->
-        <a href="Jacquelyn_Resume.pdf" target="_blank">Résumé</a>
-        <a href="https://github.com/devjaq">My Work</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </footer>
-  </div>
-  <!-- begin scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
-  <script src="scripts/module.js"></script>
-  <script src="scripts/pages.js"></script>
-  <script src="scripts/components/logo.js"></script>
-  <script src="scripts/components/my-header.js"></script>
-
-</body>
-
+      <footer>
+        <nav>
+          <a href="#!/home">Home</a>
+          <!-- <a href="#!/about">About Me</a> -->
+          <!-- <a href="Jacquelyn_Aimee_Olson_Resume.pdf">Résumé</a> -->
+          <a href="Jacquelyn_Resume.pdf" target="_blank">Résumé</a>
+          <a href="https://github.com/devjaq">My Work</a>
+          <a href="blog.html">Blog</a>
+        </nav>
+      </footer>
+    </div>
+    <!-- begin scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="scripts/module.js"></script>
+    <script src="scripts/pages.js"></script>
+    <script src="scripts/components/logo.js"></script>
+    <script src="scripts/components/my-header.js"></script>
+  </body>
 </html>
