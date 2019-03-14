@@ -1,7 +1,6 @@
 "use strict";
 
 const home = {
-  templateUrl: `html-snippets/logo.html`,
   template: `
   <main>
     <section class="content">
