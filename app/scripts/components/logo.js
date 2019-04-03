@@ -3,11 +3,11 @@
 const logo = {
   template: `
   <section class="logo">
-    <div class="devjaq-square">
-      <h1 class="devjaq">devJaq</h1>
-      <div class="bg-circle"></div>
-    </div>
+    <div class="logo-j"></div>
+    <div class="logo-d"></div>
+    <h1 class="devjaq">devJaq</h1>
     <h2 class="myname"> by Jaq Aimee</h2>
+    
   </section>
   `
 };
