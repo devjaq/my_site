@@ -152,7 +152,7 @@ header {
       // max-height: 350px;
       // height: 450px;
       min-height: 350px;
-      background-image: url("/app/images/mini-logo.png");
+      background-image: url("../images/mini-logo.png");
       @include bg-image();
       
       @media only screen and (min-width: 768px) {
@@ -163,7 +163,7 @@ header {
         position: absolute;
         right: 0;
         bottom: 0;
-        background-image: url("/app/images/logo-j.png");
+        background-image: url("../images/logo-j.png");
       }
     }
 
@@ -179,7 +179,7 @@ header {
         left: 0;
         // top: -140px;
         // left: -60px;
-        background-image: url("/app/images/logo-d.png");
+        background-image: url("../images/logo-d.png");
         // transform: scaleY(.8) rotate(-8deg) skew(25deg);
         @include bg-image();
       }
