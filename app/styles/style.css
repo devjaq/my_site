@@ -88,17 +88,23 @@ h2 {
   font-family: "Atomic Age", "Helvetica", sans-serif; }
 
 header {
+  max-height: 530px;
   height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: 30px 0; }
+  padding: 30px 0;
+  overflow-y: hidden; }
   @media only screen and (min-width: 768px) {
     header {
+      box-sizing: content-box;
+      max-height: initial;
       height: 70vh;
-      padding-top: 70px; } }
+      min-height: 575px;
+      padding-top: 70px;
+      overflow-y: initial; } }
   header .logo {
     display: flex;
     flex-direction: column;
@@ -144,15 +150,21 @@ header {
           background-position: 0px; } }
     header .logo .devjaq {
       position: absolute;
-      top: 85px;
+      top: 80px;
       color: #F7F8FA;
-      font-size: 5rem;
+      font-size: 4rem;
       transform: rotate(-3deg) skewX(-12deg);
       letter-spacing: -8px;
       text-shadow: -2px -2px 1px #321932, 2px 2px 1px #321932, -2px 2px 1px #321932, 2px -2px 1px #321932, -8px 8px 1px #321932;
       text-align: center; }
+      @media only screen and (min-width: 475px) {
+        header .logo .devjaq {
+          font-size: 5rem;
+          top: 52px; } }
       @media only screen and (min-width: 768px) {
         header .logo .devjaq {
+          top: 80px;
+          left: 222px;
           font-size: 135px; } }
     header .logo .myname {
       width: 100%;
@@ -186,9 +198,9 @@ header {
         width: 432px;
         height: 140px;
         position: absolute;
+        top: 453px;
         left: 45px;
-        bottom: 76px;
-        background-image: url("/app/images/raison-bg.png");
+        background-image: url("../images/raison-bg.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 0px;
@@ -219,8 +231,7 @@ header {
         height: 260px;
         flex-direction: column;
         align-items: flex-end;
-        top: initial;
-        bottom: 55px;
+        top: 353px;
         right: 165px;
         left: initial;
         transform: rotate(18deg); } }

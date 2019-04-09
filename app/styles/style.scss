@@ -112,6 +112,7 @@ h2 {
 }
 
 header {
+  max-height: 530px;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -119,11 +120,16 @@ header {
   align-items: center;
   position: relative;
   padding: 30px 0;
+  overflow-y: hidden;
 
 
   @media only screen and (min-width: 768px) {
+    box-sizing: content-box;
+    max-height: initial;
     height: 70vh;
+    min-height: 575px;
     padding-top: 70px;
+    overflow-y: initial;
   }
 
   // div:nth-child(2) {
@@ -186,16 +192,22 @@ header {
     }
     .devjaq {
       position: absolute;
-      top: 85px;
+      top: 80px;
       color: $white-ish;
-      font-size: 5rem;
+      font-size: 4rem;
       transform: rotate(-3deg) skewX(-12deg);
       letter-spacing: -8px;
       text-shadow: -2px -2px 1px $purple-grey, 2px 2px 1px $purple-grey,
         -2px 2px 1px $purple-grey, 2px -2px 1px $purple-grey,
         -8px 8px 1px $purple-grey;
       text-align: center;
+      @media only screen and (min-width: 475px) {
+        font-size: 5rem;
+        top: 52px;
+      }
       @media only screen and (min-width: 768px) {
+        top: 80px;
+        left: 222px;
         font-size: 135px;
       }
     }
@@ -247,9 +259,11 @@ header {
       width: 432px;
       height: 140px;
       position: absolute;
+      top: 453px;
       left: 45px;
-      bottom: 76px;
-      background-image: url("/app/images/raison-bg.png");
+      // bottom: 76px;
+      
+      background-image: url("../images/raison-bg.png");
       @include bg-image();
       padding: 8px 24px;
 
@@ -284,8 +298,8 @@ header {
       height: 260px;
       flex-direction: column;
       align-items: flex-end;
-      top: initial;
-      bottom: 55px;
+      top: 353px;
+      // bottom: 55px;
       right: 165px;
       left: initial;
       transform: rotate(18deg);
