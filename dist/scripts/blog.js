@@ -11,7 +11,7 @@ console.log(header);
 
 window.onscroll = function () {
 
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+  if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
     console.log("scroll");
 
     header.classList.add("sticky");
@@ -21,4 +21,3 @@ window.onscroll = function () {
   }
 }
 
-// when you mouse over "curate" or "design" the matching text appears in an overlay

@@ -7,7 +7,7 @@ const home = {
       <h3>Hi, thanks for being here!</h3>
       <p>I'm a junior developer specializing in front-end web development, specifically JavaScript, Node.JS and HTML/CSS. </p>
       <p>I learned JavaScript from the Grand Circus Detroit coding bootcamp and I'm currently learning PHP and WordPress on my own. I'm currenly looking for a full-time position and projects to work on!</p>
-      <p>If you are here to learn a few things <!--<a href="#!/about">-->about me<!--</a>-->, why don't you check out my <a href="Resume_Jacquelyn-Aimee-Olson.pdf" target="_blank">résumé</a> and <a href="https://github.com/devjaq">github</a>?</p>
+      <p>If you are here to learn a few things <!--<a href="#!/about">-->about me<!--</a>-->, why don't you check out my <a href="Jacquelyn_Resume.pdf" target="_blank">résumé</a> and <a href="https://github.com/devjaq">github</a>?</p>
     </section>
     <section class="content">
       <p>My non-technical background tells you that I have strong teamwork and communication skills as well as a drive to provide an elegant experience for users. Feel free to ask me why sometime! (Spoiler: both of my previous fields are plagued with bad software)</p>
